@@ -33,6 +33,7 @@
 		4F2EF545077A45B58179238E /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AA67EFD13F4581AEB3AE5B /* libAppCenterReactNative.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		754B2A8FEF8235B1F0956DD7 /* libPods-AplaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F2CEEEAC0E02EC0CCE9BFE /* libPods-AplaTests.a */; };
+		75D60D3390994CD09347A88D /* libReactNativeHaptic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E24FCF0B3B24D0CBBE9EA6D /* libReactNativeHaptic.a */; };
 		8109BACCF7844A4D850EA215 /* libTouchID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75176B0114D84D9DA5DADADE /* libTouchID.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8DEE9EA6441B4B3A916B7353 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DDEF3CDB1417EBD5C86BE /* libCodePush.a */; };
@@ -353,6 +354,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		A304512E2029D40D00A80453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F4AD274BF3B4E2BAF96D926 /* ReactNativeHaptic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = ReactNativeHaptic;
+		};
 		A3DA21E12010D3F100BC99D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2A27D14281654DEBAD47CAC8 /* TouchID.xcodeproj */;
@@ -408,6 +416,7 @@
 		61D7012D5F31483BB4813079 /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
 		61F2CEEEAC0E02EC0CCE9BFE /* libPods-AplaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AplaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67521803218BC61F74CCD029 /* libPods-Apla.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Apla.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4AD274BF3B4E2BAF96D926 /* ReactNativeHaptic.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeHaptic.xcodeproj; path = "../node_modules/react-native-haptic/ios/ReactNativeHaptic.xcodeproj"; sourceTree = "<group>"; };
 		7220348073930A2EEB7A549D /* Pods-Apla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apla/Pods-Apla.debug.xcconfig"; sourceTree = "<group>"; };
 		74DD4D55B6424FB88E097BCE /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		75176B0114D84D9DA5DADADE /* libTouchID.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libTouchID.a; sourceTree = "<group>"; };
@@ -417,6 +426,7 @@
 		8EF7D3F4BB72A09753B5D9A9 /* libPods-Apla-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Apla-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968824C5BCED31E1DF5D25BD /* libPods-Apla-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Apla-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEEB7C7E0FA477684FB214C /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
+		9E24FCF0B3B24D0CBBE9EA6D /* libReactNativeHaptic.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeHaptic.a; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B0FF8A3F5A92454AB66A5DC7 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C074B02AA9E24D9D9D80D863 /* libRCTCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTCamera.a; sourceTree = "<group>"; };
@@ -472,6 +482,7 @@
 				9223A973EAFD478BBDCCE336 /* libimageCropPicker.a in Frameworks */,
 				F43E012745014AA986768C63 /* libAppCenterReactNativePush.a in Frameworks */,
 				8109BACCF7844A4D850EA215 /* libTouchID.a in Frameworks */,
+				75D60D3390994CD09347A88D /* libReactNativeHaptic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +609,7 @@
 				CFACA0C37D7F4B078762EAE3 /* libimageCropPicker.a */,
 				8608416F4FFD4859A6E560BE /* libAppCenterReactNativePush.a */,
 				75176B0114D84D9DA5DADADE /* libTouchID.a */,
+				9E24FCF0B3B24D0CBBE9EA6D /* libReactNativeHaptic.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -715,6 +727,7 @@
 				5AD1FFA93B154B36B032989B /* imageCropPicker.xcodeproj */,
 				D06629249EB34F40AFA9AD0B /* AppCenterReactNativePush.xcodeproj */,
 				2A27D14281654DEBAD47CAC8 /* TouchID.xcodeproj */,
+				6F4AD274BF3B4E2BAF96D926 /* ReactNativeHaptic.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -751,6 +764,14 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* Apla.app */,
 				00E356EE1AD99517003FC87E /* AplaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A304512B2029D40D00A80453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A304512F2029D40D00A80453 /* libReactNativeHaptic.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -972,6 +993,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = A304512B2029D40D00A80453 /* Products */;
+					ProjectRef = 6F4AD274BF3B4E2BAF96D926 /* ReactNativeHaptic.xcodeproj */;
 				},
 				{
 					ProductGroup = 07F912C11FA07DC9003A46E0 /* Products */;
@@ -1292,6 +1317,13 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		A304512F2029D40D00A80453 /* libReactNativeHaptic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeHaptic.a;
+			remoteRef = A304512E2029D40D00A80453 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		A3DA21E22010D3F100BC99D6 /* libTouchID.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1499,12 +1531,14 @@
 					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 					"$(SRCROOT)/../node_modules/react-native-touch-id",
+					"$(SRCROOT)/../node_modules/react-native-haptic/ios/**",
 				);
 				INFOPLIST_FILE = AplaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1539,12 +1573,14 @@
 					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 					"$(SRCROOT)/../node_modules/react-native-touch-id",
+					"$(SRCROOT)/../node_modules/react-native-haptic/ios/**",
 				);
 				INFOPLIST_FILE = AplaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1569,7 +1605,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = Apla/Apla.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
@@ -1585,6 +1621,7 @@
 					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 					"$(SRCROOT)/../node_modules/react-native-touch-id",
+					"$(SRCROOT)/../node_modules/react-native-haptic/ios/**",
 				);
 				INFOPLIST_FILE = Apla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1595,8 +1632,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.apla;
 				PRODUCT_NAME = Apla;
-				PROVISIONING_PROFILE = "177cb447-c670-431c-a349-c9c7095067e0";
-				PROVISIONING_PROFILE_SPECIFIER = "Apla Development";
+				PROVISIONING_PROFILE = "69745ca2-305f-4816-9fb9-0573a8bb51b9";
+				PROVISIONING_PROFILE_SPECIFIER = "Apla Ad Hoc";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1623,6 +1661,7 @@
 					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 					"$(SRCROOT)/../node_modules/react-native-touch-id",
+					"$(SRCROOT)/../node_modules/react-native-haptic/ios/**",
 				);
 				INFOPLIST_FILE = Apla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1633,8 +1672,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.apla;
 				PRODUCT_NAME = Apla;
-				PROVISIONING_PROFILE = "4b02f6b0-a156-4381-89d0-6730ad7b23ff";
+				PROVISIONING_PROFILE = "69745ca2-305f-4816-9fb9-0573a8bb51b9";
 				PROVISIONING_PROFILE_SPECIFIER = "Apla Ad Hoc";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1776,6 +1816,7 @@
 					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 					"$(SRCROOT)/../node_modules/react-native-touch-id",
+					"$(SRCROOT)/../node_modules/react-native-haptic/ios/**",
 				);
 				INFOPLIST_FILE = Apla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1786,8 +1827,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.apla;
 				PRODUCT_NAME = Apla;
-				PROVISIONING_PROFILE = "4b02f6b0-a156-4381-89d0-6730ad7b23ff";
+				PROVISIONING_PROFILE = "69745ca2-305f-4816-9fb9-0573a8bb51b9";
 				PROVISIONING_PROFILE_SPECIFIER = "Apla Ad Hoc";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Staging;
@@ -1809,12 +1851,14 @@
 					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 					"$(SRCROOT)/../node_modules/react-native-touch-id",
+					"$(SRCROOT)/../node_modules/react-native-haptic/ios/**",
 				);
 				INFOPLIST_FILE = AplaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
