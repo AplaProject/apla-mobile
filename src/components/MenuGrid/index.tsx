@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { View, FlatList } from 'react-native';
+import { View, FlatList, Button } from 'react-native';
 import { isEmpty } from 'ramda';
 import { Icon, ListItem } from 'react-native-elements';
 
@@ -35,14 +35,18 @@ class MenuGrid extends React.Component<IMenuProps> {
     const { columnsCount } = this.props;
 
     return (
-      <FlatList
-        style={styles.flatList}
-        contentContainerStyle={columnsCount === 2 ? styles.container : styles.singleContainer}
-        numColumns={this.props.columnsCount}
-        data={this.props.menu}
-        renderItem={this.renderRow}
-        keyExtractor={this.key}
-      />
+      <View>
+        <Button title={"require password modal"} onPress={this.props.reqPwd} />
+        <Button title={"signing contract modal"} onPress={this.props.signContract} />
+      </View>
+      // <FlatList
+      //   style={styles.flatList}
+      //   contentContainerStyle={columnsCount === 2 ? styles.container : styles.singleContainer}
+      //   numColumns={this.props.columnsCount}
+      //   data={this.props.menu}
+      //   renderItem={this.renderRow}
+      //   keyExtractor={this.key}
+      // />
     );
   }
 

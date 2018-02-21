@@ -21,7 +21,9 @@ const mapDispatchToProps = dispatch => ({
   receivePageParams: (params: any) => {
     dispatch(navigator.actions.navigate(navTypes.PAGE));
     dispatch(application.actions.receivePageParams(params));
-  }
+  },
+  reqPwd: () => dispatch(application.actions.showModal({ type:'PASSWORD_MODAL' })),
+  signContract: () => dispatch(application.actions.showModal({ type: 'CONTRACT_MODAL', params: {} }))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(MenuGrid);

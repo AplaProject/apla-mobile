@@ -32,15 +32,18 @@ export default class NestedContractSigningForm extends React.Component<INestedCo
       <View style={styles.container}>
         <View style={styles.formContainer}>
           <View style={styles.titlesContainer}>
-            <Text style={styles.title}>{`${field} required`}</Text>
-            <Text style={styles.secondaryTitle}>{title}</Text>
+            <Text style={styles.title}>{`Signature required`}</Text>
+            <Text style={styles.secondaryTitle}>Attention! This contract will withdraw money from your account</Text>
           </View>
           <ScrollView style={styles.scrollView}>
-            {params.map((item: INestedParams, i: number) => {
-              return (
-                <Row Amount={Amount} Recipient={Recipient} {...item} key={i} index={i}/>
-              );
-            })}
+            {/* {params && params.map((item: INestedParams, i: number) => {
+              return ( */}
+                <Row Amount={"Amount"} Recipient={"-1221343412312400"} name={'Recipient'} text="Address of the recipient where your money will go" index={0}/>
+                <Row Amount={"Amount"} Recipient={"1"} name={'Amount'} text="How much money will be deducted from your account" index={1}/>
+                <Row Amount={"Amount"} Recipient={"-1221343412312400"} name={'Recipient'} text="Address of the recipient where your money will go" index={0}/>
+                <Row Amount={"Amount"} Recipient={"1"} name={'Amount'} text="How much money will be deducted from your account" index={1}/>
+              {/* );
+            })} */}
           </ScrollView>
           <View style={styles.buttonsContainer}>
             <Button

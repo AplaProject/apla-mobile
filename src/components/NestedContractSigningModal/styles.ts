@@ -31,8 +31,9 @@ export default StyleSheet.create({
   },
   title: {
     fontSize: FontSizes.titleSize,
+    fontFamily: Fonts.light,
     textAlign: 'center',
-    marginBottom: 10,
+    marginBottom: 15,
   },
   secondaryTitle: {
     textAlign: 'center',
