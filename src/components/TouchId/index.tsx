@@ -41,19 +41,19 @@ class TouchId extends React.Component<ITouchIdProps> {
 
   private kek = (type: number) => {
     console.log(ReactNativeHaptic, 'bl')
-    // switch(type) {
-    //   case 1:
-    //     ReactNativeHaptic.generate('notification');
-    //     break;
-    //   case 2:
-    //     ReactNativeHaptic.generate('impact');
-    //     break;
-    //   case 3:
-    //     ReactNativeHaptic.generate('selection');
-    //     break;
-    //   default:
-    //     return null;
-    // }
+    switch(type) {
+      case 1:
+        ReactNativeHaptic.generate('notification');
+        break;
+      case 2:
+        ReactNativeHaptic.generate('impact');
+        break;
+      case 3:
+        ReactNativeHaptic.generate('selection');
+        break;
+      default:
+        return null;
+    }
   }
 
   private handlePrint = (): void => {
