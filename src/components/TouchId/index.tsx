@@ -18,24 +18,25 @@ class TouchId extends React.Component<ITouchIdProps> {
   render() {
     console.log(Platform, 'plf')
     return (
-      // <View>
-      //   <Button
-      //     title="notification"
-      //     onPress={() => this.kek(1)}/>
-      //   <Button
-      //     title="impact"
-      //     onPress={() => this.kek(2)}/>
-      //   <Button
-      //     title="selection"
-      //     onPress={() => this.kek(3)}/>
-      // </View>
-      <Icon
-        type="material-icons"
-        name="fingerprint"
-        size={66}
-        {...this.props.iconStyle}
-        onPress={this.handlePrint}
-      />
+      <View>
+        <Button
+          title="notification"
+          onPress={() => this.kek(1)}/>
+        <Button
+          title="impact"
+          onPress={() => this.kek(2)}/>
+        <Button
+          title="selection"
+          onPress={() => this.kek(3)}/>
+
+        <Icon
+          type="material-icons"
+          name="fingerprint"
+          size={66}
+          {...this.props.iconStyle}
+          onPress={this.handlePrint}
+        />
+      </View>
     );
   }
 
@@ -57,19 +58,18 @@ class TouchId extends React.Component<ITouchIdProps> {
   }
 
   private handlePrint = (): void => {
-    console.log('there will be saga... probably');
     TouchID.authenticate().then((r: Object) => {
       if (Platform.OS === 'android') {
-        Vibration.vibrate(100, false);
+        // Vibration.vibrate(100, false);
       } else {
         ReactNativeHaptic.generate('notification');
       }
-      Alert.alert(
-        `Button added just for make testing of Face / Touch ID available. Will be removed later.`
-      );
+      // Alert.alert(
+      //   `Button added just for make testing of Face / Touch ID available. Will be removed later.`
+      // );
     }).catch((err: Object) => {
       if (Platform.OS === 'android') {
-        Vibration.vibrate(400, false);
+        // Vibration.vibrate(400, false);
       } else {
         ReactNativeHaptic.generate('notification');
       }
