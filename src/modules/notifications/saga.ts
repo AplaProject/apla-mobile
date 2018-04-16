@@ -126,4 +126,3 @@ export default function* notificationsSaga() {
   yield takeEvery([applicationActions.initFinish, authActions.saveLastLoggedAccount], socketWorker);
   yield takeEvery(applicationActions.setChannelSubscribtionStatus, updateNotificationsWorker);
 }
-
